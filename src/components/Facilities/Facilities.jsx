@@ -115,7 +115,7 @@ export default function TabsSmBasicLeadingIcon() {
 
     return (
         <>
-            <div className="features flex justify-center items-center flex-col flex-wrap py-6">
+            <div className="features flex justify-center items-center flex-col flex-wrap py-6 bg-gray-100">
                 <h1 className="text-2xl font-semibold">Our Top Features</h1>
                 <section className="w-2/3" aria-multiselectable="false">
                     <ul
