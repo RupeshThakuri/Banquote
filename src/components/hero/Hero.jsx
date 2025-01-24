@@ -2,7 +2,6 @@
 
 import React, { useEffect } from "react"
 import Glide from "@glidejs/glide"
-import Image from "next/image"
 
 //css
 import style from "./hero.module.css"
@@ -39,7 +38,7 @@ export default function SliderIndicatorsOutside() {
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <li>
-              <Image
+              <img
                 src="https://Tailwindmix.b-cdn.net/image-03.jpg"
                 className={`${style.imageSize}`}
                 alt="image1"
@@ -48,7 +47,7 @@ export default function SliderIndicatorsOutside() {
               />
             </li>
             <li>
-              <Image
+              <img
                 src="https://Tailwindmix.b-cdn.net/image-04.jpg"
                 className={`${style.imageSize}`}
                 alt="image1"
@@ -57,7 +56,7 @@ export default function SliderIndicatorsOutside() {
               />
             </li>
             <li>
-              <Image
+              <img
                 src="https://Tailwindmix.b-cdn.net/image-05.jpg"
                 className={`${style.imageSize}`}
                 alt="image1"
@@ -66,7 +65,7 @@ export default function SliderIndicatorsOutside() {
               />
             </li>
             <li>
-              <Image
+              <img
                 src="https://Tailwindmix.b-cdn.net/image-01.jpg"
                 className={`${style.imageSize}`}
                 alt="image1"
@@ -75,7 +74,7 @@ export default function SliderIndicatorsOutside() {
               />
             </li>
             <li>
-              <Image
+              <img
                 src="https://Tailwindmix.b-cdn.net/image-02.jpg"
                 className={`${style.imageSize}`}
                 alt="image1"
