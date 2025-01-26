@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Header() {
     return (
@@ -20,8 +21,11 @@ function Header() {
                     <div className="hidden md:block">
                         <nav aria-label="Global">
                             <ul className="flex items-center gap-6 text-sm">
+                            <li>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/"> Home </Link>
+                                </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/about"> About </Link>
                                 </li>
 
                                 <li>

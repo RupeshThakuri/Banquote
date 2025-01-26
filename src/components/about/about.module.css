@@ -1,0 +1,131 @@
+/* about.module.css */
+
+/* General Styles for Container */
+.container {
+  padding: 0 2rem;
+}
+
+/* Main Section */
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.titleText {  /* Renamed from h2 selector */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1{
+  
+}
+
+
+
+/* Media Queries for PC */
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  .main {
+    max-width: 900px;
+    padding: 0 2rem;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .titleText {
+    font-size: 2.5rem;
+  }
+
+
+
+  
+}
+
+/* Media Queries for Tablet and Mobile */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .main {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .titleText {
+    font-size: 2rem;
+  }
+
+ 
+
+ 
+}
+
+/* Media Queries for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .main {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .titleText {
+    font-size: 1.8rem;
+  }
+
+  
+
+ 
+}
+
+/* Media Queries for Very Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  .main {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .titleText {
+    font-size: 1.6rem;
+  }
+
+ 
+ 
+}
